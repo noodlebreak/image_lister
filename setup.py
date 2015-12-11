@@ -99,8 +99,8 @@ setup(
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
     package_data={
-        'image_lister': ['image_lister/README.md',
-        'image_lister/VERSION', 'image_lister/LICENSE'],
+        'pypi-packaging-example': ['pypi-packaging-example/README.md',
+        'pypi-packaging-example/VERSION', 'pypi-packaging-example/LICENSE'],
     },
 
     # Although 'package_data' is the preferred approach, in some case you may
