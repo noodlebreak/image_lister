@@ -22,7 +22,10 @@ def is_image(fname):
     return False
 
 
-def main(args):
+def main(args=None):
+    if not args:
+        args = sys.argv
+
     if len(args) > 1:
         for i, arg in enumerate(args):
             print("%d = %s" % (i, arg))
