@@ -11,7 +11,7 @@ file descriptors and meta even.
 
 Run it with the ``imglister`` command:
 
-	imglister path/to/dir/containing/images
+	``imglister path/to/dir/containing/images``
 
 **The actual purpose of this package was to
 learn how to push packages to PyPi though.**
